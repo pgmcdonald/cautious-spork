@@ -43,7 +43,6 @@ def main(argv):
     #List of Dictionsary
     dictList=[]
     
-    #with open('/Users/paumcdon/Documents/Kenz_work/CombineXML.xml') as fd:
     with open(args['filepath']) as fd:
         doc = xmltodict.parse(fd.read())
     
